@@ -16,10 +16,10 @@ struct ContentView: View {
                 Image("Oleg")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 250, height: 250)
+                    .frame(width: 200, height: 200)
                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                     .overlay(
-                        Circle().stroke(Color.white, lineWidth: 1)
+                        Circle().stroke(Color.white, lineWidth: 5)
                 )
                 
                 Text("Oleg Kudimov")

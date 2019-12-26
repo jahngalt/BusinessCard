@@ -22,6 +22,9 @@ struct InfoView: View {
                 Image(systemName: imageName)
                     .foregroundColor(.green)
                 Text(text)
+                    
+                // This line needs to correct work with dark theme 
+                .foregroundColor(Color("Info Color"))
                
             })
             .padding(.all)
